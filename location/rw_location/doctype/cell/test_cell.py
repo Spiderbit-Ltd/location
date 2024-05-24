@@ -1,0 +1,9 @@
+# Copyright (c) 2024, Spiderbit LTD and Contributors
+# See license.txt
+
+# import frappe
+from frappe.tests.utils import FrappeTestCase
+
+
+class TestCell(FrappeTestCase):
+	pass
