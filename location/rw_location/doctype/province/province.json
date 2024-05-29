@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:province_id",
  "creation": "2024-05-21 12:22:30.748042",
@@ -26,7 +27,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-21 12:22:40.334463",
+ "modified": "2024-05-21 14:15:11.758802",
  "modified_by": "Administrator",
  "module": "RW Location",
  "name": "Province",

@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:district_id",
  "creation": "2024-05-21 12:27:02.546328",
@@ -33,7 +34,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-21 12:27:34.570794",
+ "modified": "2024-05-21 12:59:39.850334",
  "modified_by": "Administrator",
  "module": "RW Location",
  "name": "District",

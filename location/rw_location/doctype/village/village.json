@@ -29,13 +29,12 @@
    "fieldname": "cell_id",
    "fieldtype": "Link",
    "label": "Cell Id",
-   "options": "Cell",
-   "unique": 1
+   "options": "Cell"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-21 12:32:57.152469",
+ "modified": "2024-05-21 15:10:35.319827",
  "modified_by": "Administrator",
  "module": "RW Location",
  "name": "Village",
