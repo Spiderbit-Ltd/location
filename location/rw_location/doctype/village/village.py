@@ -4,12 +4,11 @@
 import frappe
 from frappe.model.document import Document
 
+
 class Village(Document):
 
 	def after_save(self):
-		if self.cell_id:
-			frappe.cache().delete_value(f"cached_villages_{self.cell_id}")
+		frappe.cache().delete_value("cached_villages")
 
 	def on_trash(self):
-		if self.cell_id:
-			frappe.cache().delete_value(f"cached_villages_{self.cell_id}")
+		frappe.cache().delete_value("cached_villages")

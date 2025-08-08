@@ -4,11 +4,10 @@
 import frappe
 from frappe.model.document import Document
 
+
 class Sector(Document):
 	def after_save(self):
-		if self.district_id:
-			frappe.cache().delete_value(f"cached_sectors_{self.district_id}")
+		frappe.cache().delete_value("cached_sectors")
 
 	def on_trash(self):
-		if self.district_id:
-			frappe.cache().delete_value(f"cached_sectors_{self.district_id}")
+		frappe.cache().delete_value("cached_sectors")
